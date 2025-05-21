@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model Example</title>
+  <style>
+    body { 
+      background: #EAEBD0;
+      padding: 20px;
+    }
+
+    .container {
+      margin: 20px;
+      border: 3px solid #333;
+      padding: 15px;
+      background-color: white;
+      width: 200px;
+      height: 100px; 
+    }
+
+    .box1 {
+      margin: 10px;
+      padding: 60px;
+      border: 2px solid #AF3E3E;
+      background-color: #dec7c7;
+      border-radius: 0px 10px 0px 10px; 
+    }
+
+    .box2 {
+      margin: 20px;
+      padding: 20px;
+      border: 4px dashed green;
+      background-color: #e5ffe5;
+    }
+
+    .box3 {
+      margin: 30px;
+      padding: 30px;
+      border: 6px dotted blue;
+      background-color: #e5e5ff;
+    }
+
+    .box4 {
+        width: 400px;
+      margin: 40px;
+      padding: 10px 60px;
+      border: 8px groove orange;
+      background-color: #fff3e5;
+        box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Box Model - 4 Containers</h2>
+
+  <div class="container box1">Box 1: Small Margin, Large Padding, Border</div>
+  <div class="container box2">Box 2: Medium Margin, Padding, Dashed Border</div>
+  <div class="container box3">Box 3: Large Margin, Padding, Dotted Border</div>
+  <div class="container box4">Box 4: Box sizing, Groove Border</div>
+
+</body>
+</html>
